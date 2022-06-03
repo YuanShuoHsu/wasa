@@ -78,11 +78,6 @@ npm install sass-loader sass webpack --save-dev
 ```
 
 # 切換輸入類型
-```
-寫程式碼
-```
-
-# 切換頁面
 
 ## 雙向數據綁定三種 Input 類型
 * v-model 用於表單類型標籤用於綁定 value
@@ -128,6 +123,7 @@ npm install sass-loader sass webpack --save-dev
 />
 <label for="select">select</label>
 ```
+
 ## v-show 三元運算符
 computed 與 watch 之間的區別
 * computed 能完成的功能， watch 都可以實現
@@ -166,6 +162,8 @@ export default {
 };
 </script>
 ```
+
+# 切換頁面
 
 ## 路由
 為了實現 SPA（Single Page Application）應用
@@ -295,14 +293,6 @@ export default {
 ```
 
 ※ 最好在 beforeDestroy 鉤子中，用 $off 去解綁當前組件所用到的事件
-
-
-
-
-
-
-
-
 
 # 設定頁面 Title
 
