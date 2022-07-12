@@ -22,7 +22,6 @@ export default {
     },
     watch: {
         selectColor() {
-            // this.$store.dispatch("theme", this.selectColor);
             this.$store.commit("themeAbout/THEME", this.selectColor);
         },
     },

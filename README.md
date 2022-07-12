@@ -1,4 +1,5 @@
 # Wasa
+https://wasa-af3ef.web.app/
 
 ## Project setup
 ```
@@ -248,7 +249,7 @@ new Vue({
 }).$mount('#app')
 ```
 
-### 使用事件總線
+### 使用全局事件總線
 ```
 <script>
 export default {

@@ -16,30 +16,7 @@ const themeOptions = {
     getters: {}
 }
 
-// const actions = {
-//     // theme(context, value) {
-//     //     context.commit('THEME', value);
-//     // }
-// }
-
-// const mutations = {
-//     THEME(state, value) {
-//         state.themeColor = value;
-//     }
-// }
-
-// const state = {
-//     themeColor: "default"
-// }
-
-// // const getters = {
-// // }
-
 export default new Vuex.Store({
-    // actions,
-    // mutations,
-    // state,
-    // getters
     modules: {
         themeAbout: themeOptions
     }
